@@ -1,17 +1,41 @@
 #reader {
 	border: dashed 3px;
 	width:300px;
-	height:250px;
+	height:225px;
+}
 
+#container {
     float: left;
     margin: 20px;
 }
 
-#resultaat {
-    margin: 20px;
+#result {
+    margin: 10px;
+    padding: 10px;
+    border: transparent 1px;
+    line-height: 150%;
+}
+
+#title {
+    font-weight: bold;
 }
 
 body {
-    background-color: azure;
+    background-image:
+    linear-gradient(rgba(255, 10, 115, 0.2), rgba(70, 255, 255, 0.3)),
+    url('https://media.timeout.com/images/100563213/image.jpg');
+
+    color: white;
+    text-shadow: 20px 20px 8px #000000;
 }
+
+
+img {
+    width: 500px;
+    box-shadow: 5px 5px 1px rgba(0, 0, 255, 0.6);
+    float: right;
+    margin: 0 0 15px 20px;
+}
+
+
 
